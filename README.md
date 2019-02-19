@@ -41,6 +41,7 @@ Medscape (medscape.com)\
 MIT Technology Review (technologyreview.com)\
 Mountain View Voice (mv-voice.com)\
 New Statesman (newstatesman.com)\
+New York Magazine (nymag.com)\
 Newsrep (thenewsrep.com)\
 Nikkei Asian Review (asia.nikkei.com)\
 NRC (nrc.nl)\
