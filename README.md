@@ -102,7 +102,7 @@ Usually premium articles cannot be bypassed as they are behind a hard paywall.
 * This add-on works best alongside [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/).
 * If a site doesn't work try turning off uBlock and refreshing.
 
-### Pull Requesets
+### Pull Requests
 * PRs are welcome.
 
 ### Show your support
