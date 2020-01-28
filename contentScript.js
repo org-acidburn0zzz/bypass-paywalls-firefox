@@ -187,11 +187,24 @@ if (window.location.href.indexOf("nytimes.com") !== -1) {
             preview_button.click();
 }
 
+if (window.location.href.indexOf("thestar.com") !== -1) {
+    const paywall = document.querySelector('.basic-paywall-new');
+    removeDOMElement(paywall);
+    const tbc = document.querySelectorAll('.text-block-container'); 
+    for (let i = 0; i < tbc.length; i++) {
+        tbc[i].removeAttribute('style');
+    }
+}
+
 if (window.location.href.indexOf("caixinglobal.com") !== -1) {
+    const pay_tip = document.querySelectorAll('.cons-pay-tip'); 
+    for (let i = 0; i < pay_tip.length; i++) {
+        pay_tip[i].removeAttribute('style');
+    }
     const appContent = document.getElementById('appContent');
     if (appContent) {
         const p_hidden = document.querySelectorAll('p:not([style="display:block;"]');
-        for (var i = 0; i < p_hidden.length; i++) {
+        for (let i = 0; i < p_hidden.length; i++) {
             p_hidden[i].setAttribute('style', 'display:block;');
         }
     }

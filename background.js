@@ -291,7 +291,7 @@ chrome.webRequest.onBeforeRequest.addListener(function(details) {
   return {cancel: true};
   },
   {
-    urls: ["*://*.thestar.com/*", "*://*.newstatesman.com/*"],
+    urls: ["*://*.newstatesman.com/*"],
     types: ["script"]
   },
   ["blocking"]
