@@ -240,7 +240,9 @@ const blockedRegexes = {
 'bostonglobe.com': /meter\.bostonglobe\.com\/js\/.+/,
 'foreignpolicy.com': /.+\.tinypass\.com\/.+/,
 'inquirer.com': /.+\.tinypass\.com\/.+/,
-'spectator.co.uk': /.+\.tinypass\.com\/.+/
+'spectator.co.uk': /.+\.tinypass\.com\/.+/,
+'afr.com': /afr\.com\/assets\/vendorsReactRedux_client.+\.js/,
+'theglobeandmail.com': /theglobeandmail\.com\/pb\/resources\/scripts\/build\/chunk-bootstraps\/.+\.js/
 };
 
 const userAgentDesktop = "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
@@ -289,7 +291,7 @@ chrome.webRequest.onBeforeRequest.addListener(function(details) {
   return {cancel: true};
   },
   {
-    urls: ["*://*.theglobeandmail.com/*", "*://*.thestar.com/*", "*://*.newstatesman.com/*", "*://*.afr.com/*"],
+    urls: ["*://*.thestar.com/*", "*://*.newstatesman.com/*"],
     types: ["script"]
   },
   ["blocking"]
