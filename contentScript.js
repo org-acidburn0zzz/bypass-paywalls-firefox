@@ -187,6 +187,16 @@ if (window.location.href.indexOf("nytimes.com") !== -1) {
             preview_button.click();
 }
 
+if (window.location.href.indexOf("techinasia.com") !== -1) {
+    const paywall = document.querySelector('.paywall-content');
+    if (paywall){
+        paywall.classList.remove('paywall-content');
+    }
+    const splash_subscribe = document.querySelector('.splash-subscribe');
+    const paywall_hard = document.querySelector('.paywall-hard');
+    removeDOMElement(splash_subscribe, paywall_hard);
+}
+
 if (window.location.href.indexOf("thestar.com") !== -1) {
     const paywall = document.querySelector('.basic-paywall-new');
     removeDOMElement(paywall);

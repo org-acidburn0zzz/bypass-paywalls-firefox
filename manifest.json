@@ -23,7 +23,8 @@
     "*://*.washingtonpost.com/*",
     "*://*.economist.com/*",
     "*://*.the-tls.co.uk/*",
-    "*://*.leparisien.fr/*"
+    "*://*.leparisien.fr/*",
+    "*://*.techinasia.com/*"
       ],
       "js": ["contentScript.js"]
     }
@@ -156,7 +157,8 @@
     "*://*.nknews.org/*",
     "*://*.inquirer.com/*",
     "*://*.indiatimes.com/*",
-    "*://*.leparisien.fr/*"
+    "*://*.leparisien.fr/*",
+    "*://*.techinasia.com/*"
   ],
   "version": "1.6.3"
 }
