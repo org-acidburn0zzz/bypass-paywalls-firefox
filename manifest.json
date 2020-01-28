@@ -24,7 +24,8 @@
     "*://*.economist.com/*",
     "*://*.the-tls.co.uk/*",
     "*://*.leparisien.fr/*",
-    "*://*.techinasia.com/*"
+    "*://*.techinasia.com/*",
+    "*://*.bloombergquint.com/*"
       ],
       "js": ["contentScript.js"]
     }
@@ -158,7 +159,9 @@
     "*://*.inquirer.com/*",
     "*://*.indiatimes.com/*",
     "*://*.leparisien.fr/*",
-    "*://*.techinasia.com/*"
+    "*://*.techinasia.com/*",
+    "*://*.bloombergquint.com/*",
+    "*://*.statista.com/*"
   ],
   "version": "1.6.4"
 }
