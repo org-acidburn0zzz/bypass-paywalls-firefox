@@ -101,7 +101,7 @@
 [Vrij Nederland](https://www.vn.nl)\
 [Wired](https://www.wired.com)
 
-## [Chrome version here](https://github.com/iamadamdev/bypass-paywalls-chrome)
+### [Chrome version here](https://github.com/iamadamdev/bypass-paywalls-chrome)
 
 ### Sites with limited number of free articles
 The free article limit can normally be bypassed by removing cookies for the site.*
