@@ -33,6 +33,7 @@ var defaultSites = {
   'Inc.com': 'inc.com',
   'Investors Chronicle': 'investorschronicle.co.uk',
   'La Repubblica': 'repubblica.it',
+  'La Stampa': 'lastampa.it',
   'Le Monde': 'lemonde.fr',
   'Le Parisien': 'leparisien.fr',
   'London Review of Books': 'lrb.co.uk',

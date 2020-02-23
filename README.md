@@ -38,6 +38,7 @@
 [Inc.com](https://www.inc.com)\
 [Investors Chronicle](https://www.investorschronicle.co.uk)\
 [La Repubblica](https://www.repubblica.it)\
+[La Stampa](https://www.lastampa.it)\
 [Le Monde](https://www.lemonde.fr)\
 [Le Parisien](http://www.leparisien.fr)\
 [London Review of Books](https://lrb.co.uk)\
