@@ -71,6 +71,7 @@
 [The Australian Financial Review](https://www.afr.com)\
 [The Boston Globe](https://www.bostonglobe.com)\
 [The Business Journals](https://www.bizjournals.com)\
+[The Daily Telegraph](https://www.dailytelegraph.com.au)\
 [The Diplomat](https://www.thediplomat.com)\
 [The Globe and Mail](https://www.theglobeandmail.com)\
 [The Herald](https://www.theherald.com.au)\
@@ -123,6 +124,7 @@ Usually premium articles cannot be bypassed as they are behind a hard paywall.
 ### Troubleshooting
 * This add-on works best alongside [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/).
 * If a site doesn't work try turning off uBlock and refreshing.
+* If a site is having problems try unchecking "\*General Paywall Bypass\*" in Options.
 
 ### Pull Requests
 * PRs are welcome.

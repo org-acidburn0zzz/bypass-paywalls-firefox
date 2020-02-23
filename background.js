@@ -68,6 +68,7 @@ var defaultSites = {
   'The Australian Financial Review': 'afr.com',
   'The Boston Globe': 'bostonglobe.com',
   'The Business Journals': 'bizjournals.com',
+  'The Daily Telegraph': 'dailytelegraph.com.au',
   'The Diplomat': 'thediplomat.com',
   'The Globe and Mail': 'theglobeandmail.com',
   'The Herald': 'theherald.com.au',
@@ -97,6 +98,7 @@ var defaultSites = {
   'Vanity Fair': 'vanityfair.com',
   'Vrij Nederland': 'vn.nl',
   'Wired': 'wired.com',
+  '*General Paywall Bypass*': 'generalpaywallbypass'
 };
 
 const restrictions = {
@@ -216,7 +218,8 @@ const use_google_bot = [
 'haaretz.com',
 'themarker.com',
 'nknews.org',
-'prime.economictimes.indiatimes.com'
+'prime.economictimes.indiatimes.com',
+'dailytelegraph.com.au',
 ]
 
 function setDefaultOptions() {
@@ -282,14 +285,16 @@ browser.runtime.onInstalled.addListener(function(details) {
 });
 
 // Disable javascript for these sites
-chrome.webRequest.onBeforeRequest.addListener(function(details) {
-  if (!isSiteEnabled(details) || details.url.indexOf("mod=rsswn") !== -1) {
+browser.webRequest.onBeforeRequest.addListener(function(details) {
+  if (!isSiteEnabled(details) && !enabledSites.some(function(enabledSite) {
+    return enabledSite.indexOf("generalpaywallbypass") !== -1
+  })) {
     return;
   }
-  return {cancel: true};
+  return {cancel: true}; 
   },
   {
-    urls: ["*://*.newstatesman.com/*"],
+    urls: ["*://*.newstatesman.com/*", "*://*.tinypass.com/*", "*://*.poool.fr/*", "*://*.piano.io/*", "*://*.outbrain.com/*"],
     types: ["script"]
   },
   ["blocking"]
