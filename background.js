@@ -248,6 +248,7 @@ const blockedRegexes = {
 'theglobeandmail.com': /theglobeandmail\.com\/pb\/resources\/scripts\/build\/chunk-bootstraps\/.+\.js/,
 'lastampa.it': /.+\.repstatic\.it\/minify\/sites\/lastampa\/.+\/config\.cache\.php\?name=social_js/,
 'theadvocate.com.au': /.+cdn-au\.piano\.io\/api\/tinypass.+\.js/,
+'repubblica.it': /scripts\.repubblica\.it\/pw\/pw\.js.+/,
 };
 
 const userAgentDesktop = "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
