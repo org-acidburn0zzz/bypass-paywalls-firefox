@@ -67,7 +67,6 @@ var defaultSites = {
   'The Australian Financial Review': 'afr.com',
   'The Boston Globe': 'bostonglobe.com',
   'The Business Journals': 'bizjournals.com',
-  'The Daily Telegraph': 'dailytelegraph.com.au',
   'The Diplomat': 'thediplomat.com',
   'The Globe and Mail': 'theglobeandmail.com',
   'The Herald': 'theherald.com.au',
@@ -96,8 +95,7 @@ var defaultSites = {
   'Trouw': 'trouw.nl',
   'Vanity Fair': 'vanityfair.com',
   'Vrij Nederland': 'vn.nl',
-  'Wired': 'wired.com',
-  '*General Paywall Bypass*': 'generalpaywallbypass'
+  'Wired': 'wired.com'
 };
 
 // Saves options to browser.storage
