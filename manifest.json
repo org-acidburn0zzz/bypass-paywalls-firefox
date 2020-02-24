@@ -1,6 +1,9 @@
 {
   "background": {
-    "scripts": ["background.js"]
+    "scripts": [
+      "common.js",
+      "background.js"
+    ]
   },
   "content_scripts": [
     {
