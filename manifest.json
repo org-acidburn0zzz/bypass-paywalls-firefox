@@ -160,7 +160,8 @@
     "*://*.leparisien.fr/*",
     "*://*.techinasia.com/*",
     "*://*.bloombergquint.com/*",
-    "*://*.statista.com/*"
+    "*://*.statista.com/*",
+    "*://*.dailytelegraph.com.au/*"
   ],
   "version": "1.6.4"
 }

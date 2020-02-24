@@ -72,6 +72,7 @@
 [The Australian Financial Review](https://www.afr.com)\
 [The Boston Globe](https://www.bostonglobe.com)\
 [The Business Journals](https://www.bizjournals.com)\
+[The Daily Telegraph](https://www.dailytelegraph.com.au)\
 [The Diplomat](https://www.thediplomat.com)\
 [The Globe and Mail](https://www.theglobeandmail.com)\
 [The Herald](https://www.theherald.com.au)\
