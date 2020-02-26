@@ -164,7 +164,10 @@
     "*://*.techinasia.com/*",
     "*://*.bloombergquint.com/*",
     "*://*.statista.com/*",
-    "*://*.dailytelegraph.com.au/*"
+    "*://*.dailytelegraph.com.au/*",
+    "*://*.poool.fr/*",
+    "*://*.piano.io/*",
+    "*://*.outbrain.com/*"
   ],
-  "version": "1.6.5"
+  "version": "1.6.6"
 }

@@ -189,13 +189,15 @@ browser.runtime.onInstalled.addListener(function(details) {
 
 // Disable javascript for these sites
 browser.webRequest.onBeforeRequest.addListener(function(details) {
-  if (!isSiteEnabled(details) || details.url.indexOf("mod=rsswn") !== -1) {
+  if (!isSiteEnabled(details) && !enabledSites.some(function(enabledSite) {
+    return enabledSite.indexOf("generalpaywallbypass") !== -1
+  })) {
     return;
   }
-  return {cancel: true};
+  return {cancel: true}; 
   },
   {
-    urls: ["*://*.newstatesman.com/*", "*://*.tinypass.com/*"],
+    urls: ["*://*.newstatesman.com/*", "*://*.tinypass.com/*", "*://*.poool.fr/*", "*://*.piano.io/*", "*://*.outbrain.com/*"],
     types: ["script"]
   },
   ["blocking"]

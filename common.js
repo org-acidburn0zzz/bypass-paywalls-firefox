@@ -97,4 +97,5 @@ const defaultSites = {
     'Vanity Fair': 'vanityfair.com',
     'Vrij Nederland': 'vn.nl',
     'Wired': 'wired.com',
+    '*General Paywall Bypass*': 'generalpaywallbypass',
   };

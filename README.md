@@ -1,6 +1,6 @@
 # Bypass Paywalls for Firefox
 
-## [Download and install the latest version](https://github.com/iamadamdev/bypass-paywalls-firefox/releases/download/v1.6.5/bypass_paywalls-1.6.5-an+fx.xpi)
+## [Download and install the latest version](https://github.com/iamadamdev/bypass-paywalls-firefox/releases/download/v1.6.6/bypass_paywalls-1.6.6-an+fx.xpi)
 
 ### Bypass the following sites' paywalls with this extension
 
@@ -125,6 +125,7 @@ Usually premium articles cannot be bypassed as they are behind a hard paywall.
 ### Troubleshooting
 * This add-on works best alongside [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/).
 * If a site doesn't work try turning off uBlock and refreshing.
+* If a site is having problems try unchecking "\*General Paywall Bypass\*" in Options.
 
 ### Pull Requests
 * PRs are welcome.
