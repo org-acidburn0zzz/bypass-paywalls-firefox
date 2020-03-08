@@ -117,7 +117,6 @@ const use_google_bot = [
 'haaretz.co.il',
 'haaretz.com',
 'themarker.com',
-'nknews.org',
 'prime.economictimes.indiatimes.com',
 'dailytelegraph.com.au',
 ]

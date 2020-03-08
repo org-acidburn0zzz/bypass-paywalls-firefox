@@ -46,7 +46,6 @@ const defaultSites = {
     'New Statesman': 'newstatesman.com',
     'New York Magazine': 'nymag.com',
     'Nikkei Asian Review': 'asia.nikkei.com',
-    'NK News': 'nknews.org',
     'NRC': 'nrc.nl',
     'New Zealand Herald': 'nzherald.co.nz',
     'Orange County Register': 'ocregister.com',
