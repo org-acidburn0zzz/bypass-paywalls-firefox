@@ -23,6 +23,7 @@ const defaultSites = {
     'Examiner': 'examiner.com.au',
     'Financial Times': 'ft.com',
     'Foreign Policy': 'foreignpolicy.com',
+    'Fortune': 'fortune.com',
     'Glassdoor': 'glassdoor.com',
     'Haaretz': 'haaretz.co.il',
     'Haaretz English': 'haaretz.com',
