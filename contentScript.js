@@ -283,6 +283,14 @@ if (window.location.href.indexOf("leparisien.fr") !== -1) {
         }, 300); // Delay (in milliseconds)
 }
 
+if (window.location.href.indexOf("theathletic.com") !== -1) {
+    const landing_banner = document.querySelector('.logged-out-landing-banner');
+    const sample_banner = document.querySelector('.main-sample-banner');
+    const bottom_banner = document.querySelector('.border-bottom-cc');
+    const subscribe = document.querySelector('.subscribe-ad-text');
+    removeDOMElement(landing_banner, sample_banner, bottom_banner, subscribe);
+}
+
 function removeDOMElement(...elements) {
     for (let element of elements) {
         if (element) element.remove();

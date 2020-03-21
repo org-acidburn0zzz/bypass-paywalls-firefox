@@ -167,7 +167,8 @@
     "*://*.dailytelegraph.com.au/*",
     "*://*.poool.fr/*",
     "*://*.piano.io/*",
-    "*://*.outbrain.com/*"
+    "*://*.outbrain.com/*",
+    "*://*.theathletic.com/*"
   ],
   "version": "1.6.8"
 }

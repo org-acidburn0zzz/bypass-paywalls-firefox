@@ -47,6 +47,7 @@ const allow_cookies = [
 'volkskrant.nl',
 'washingtonpost.com',
 'lrb.co.uk',
+'theathletic.com',
 ]
 
 // Removes cookies after page load
@@ -119,6 +120,7 @@ const use_google_bot = [
 'themarker.com',
 'prime.economictimes.indiatimes.com',
 'dailytelegraph.com.au',
+'theathletic.com',
 ]
 
 function setDefaultOptions() {
