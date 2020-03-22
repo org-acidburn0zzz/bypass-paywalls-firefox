@@ -7,7 +7,7 @@
   },
   "content_scripts": [
     {
-      "matches": [
+    "matches": [
     "*://*.bizjournals.com/*",
     "*://*.bloomberg.com/*",
     "*://*.businessinsider.com/*",
@@ -29,7 +29,7 @@
     "*://*.leparisien.fr/*",
     "*://*.techinasia.com/*",
     "*://*.bloombergquint.com/*"
-      ],
+    ],
       "js": ["contentScript.js"]
     }
   ],
