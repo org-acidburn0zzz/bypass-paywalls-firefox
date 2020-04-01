@@ -53,8 +53,10 @@ if (window.location.href.indexOf("bizjournals.com") !== -1) {
         }
     }
 } else if (location.hostname.endsWith('rep.repubblica.it')) {
-  if (location.href.includes('/pwa/')) {
-        location.href = location.href.replace('/pwa/', '/ws/detail/');
+    if (location.href.includes('/pwa/')) {
+        setTimeout(function () {
+            window.location.href = window.location.href.replace('/pwa/', '/ws/detail/');
+        }, 400);
     }
     if (location.href.includes('/ws/detail/')) {
         const paywall = document.querySelector('.paywall[subscriptions-section="content"]');
